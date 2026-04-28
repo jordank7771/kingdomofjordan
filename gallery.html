@@ -1,0 +1,786 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Kingdom</title>
+
+    <!--Bootstrap CSS and JS links here-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!--HEADER-->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kingdom</a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\about-me.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\resume.html">Resume</a>
+                </li>
+
+                <!--Disabled Link Code-->
+                <!--<li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
+
+    <!--MAIN-->
+    <main class="flex-shrink-0">
+        <div class="container py-3">
+            <!--Hero Header-->
+            <section class="py-3 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">Gallery</h1>
+                        <p class="lead text-body-secondary">
+                            A Collection of All Past Works
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="featurette" />
+            </section>
+
+            <!--Gallery-->
+            <section>
+                <!--
+                    !!! READ BEFORE EDITING !!!  
+                    
+                    The <div> tags with the "col text-center" class note INDIVIDUAL CARDS.
+                    DO NOT edit <img>/<video> tags to be dynamic/fluid dimensions as it overrides the grid.
+                    Each row is commented below for ease of access.
+
+                    DO NOT DELETE INDIVIDUAL CARDS AT ONCE.
+                    Copy/Paste entire built cards, then replace file paths accordingly.
+                    Copy/Patse <img> tags with other <img> tags (same applying to <video> tags)
+
+                    For the "Details >>>" modal ids, there are FOUR PLACES where the IDs need to be updated with the modal number
+                    Each modal is labeled with the card placement
+                    EXAMPLE: The card placed in Row 1, Col 1 will have the ID = "card1"
+
+                    The cards containing a CAROUSEL are to be edited independently.
+                    DO NOT change the "data-bs-interval" or "p-[x]"value.
+                -->
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="container-fluid">
+                            <div class="row row-cols-1 row-cols-md-4 g-4">
+                                <!--ROW 1-->
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\iamt_B.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h4 class="card-title"><i>I Ain't Try To</i></h4>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card1">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card1" tabindex="-1" aria-labelledby="card1" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card1">I Ain't Try To - Throwaway Album Cover for MoBandz</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\iamt_B.png" class="card-img-top" alt="...">
+                                                                <p>
+                                                                    In attending Purdue University, I met and befriended MoBandz, an aspiring rap artist. Briefly working with him and his collective, Swim Industries, I was commissioned to make an album cover for his upcoming single, I Ain't Try To. While listening to sample snippets, the sound made reminded me of the concept of zero gravity.
+                                                                    <br />
+                                                                    Although this cover design was not ultimately to be used with the final publishing, this cover is my most polished work. Since I had more experience in using the Adobe Creative Suite, more subtle features were added to make this design feel more immersive in its appearance.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\nvrEff3.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h4 class="card-title"><i>never enough</i></h4>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card2">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card2" tabindex="-1" aria-labelledby="card2" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card2">never enough - Sample Album Cover</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\nvrEff3.png" class="card-img-top" alt="...">
+                                                                <p>
+                                                                    In seeking to use my image manipulation skills as a form of monetary gain, I wanted to create sample covers that best showcase my ability to create clean and comprehensive designs. All of the elements used in this design were royalty free images, or otherwise, personally photographed on my phone.                                                                    <br />
+                                                                    <br />
+                                                                    This was the first cover that I have utilized Photoshop and Illustrator, two applications that are a part of the Adobe Creative Suite. A lot of the color grading properties were a challenge to understand at first, but through taking this sample design through multiple iterations, the final design displays a warm feeling that is similar to my experiences watching the sun set.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\fpg4_B.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h4 class="card-title"><i>Finna Get Popped</i></h4>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card3">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card3" tabindex="-1" aria-labelledby="card3" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card3">Finna Get Popped - Published Album Cover for H.E.R.U</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\fpg4_B.png" class="card-img-top" alt="...">
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\eon-brand-guides.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h4 class="card-title"><i>Brand Guidelines - Echoes of Nox</i></h4>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card4">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card4" tabindex="-1" aria-labelledby="card4" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card4">Brand Guidelines - Echoes of Nox</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start p-1">
+                                                                <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\eon-brand-guides.png" class="card-img-top" alt="...">
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--ROW 2-->
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\wbb-karsh-PU-SS.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>Next Game Ribbon Graphics - Purdue Athletics</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card5">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card5" tabindex="-1" aria-labelledby="card5" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card5">Next Game Ribbon Graphics - Purdue Athletics</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\wbb-karsh-PU-SS.png" class="card-img-top" alt="...">
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\fnVid_THMBNL.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>Fortnite Themed YouTube Thumbnail</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card6">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card6" tabindex="-1" aria-labelledby="card6" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card6">Fortnite Themed YouTube Thumbnail</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\fnVid_THMBNL.png" class="card-img-top" alt="...">
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <video class="card-img-top" autoplay loop muted>
+                                                <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\op_Splash_third_2.mp4"
+                                                        type="video/mp4" />
+                                            </video>
+
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>Orange Party - Splash Screen</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card7">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card7" tabindex="-1" aria-labelledby="card7" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card7">Orange Party - Splash Screen</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <video class="card-img-top" autoplay loop muted>
+                                                                    <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\op_Splash_third_2.mp4"
+                                                                            type="video/mp4" />
+                                                                </video>
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <video class="card-img-top" autoplay loop muted>
+                                                <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\King_killMoGraph.mp4"
+                                                        type="video/mp4" />
+                                            </video>
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>"Concrete Slice" Volleyball Graphics - Purdue Athletics</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card8">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card8" tabindex="-1" aria-labelledby="card8" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <!--HEADER-->
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card8">"Concrete Slice" Volleyball Graphics - Purdue Athletics</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <!--CAROUSEL-->
+                                                            <div class="container-fluid p-1">
+                                                                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                                                                    <div class="carousel-inner">
+                                                                        <div class="carousel-item active" data-bs-interval="5000">
+                                                                            <video class="img-fluid" autoplay loop muted>
+                                                                                <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\King_killMoGraph.mp4"
+                                                                                        type="video/mp4" />
+                                                                            </video>
+                                                                        </div>
+                                                                        <div class="carousel-item" data-bs-interval="5000">
+                                                                            <video class="img-fluid" autoplay loop muted>
+                                                                                <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\King_killMoGraph.mp4"
+                                                                                        type="video/mp4" />
+                                                                            </video>
+                                                                        </div>
+                                                                        <div class="carousel-item" data-bs-interval="5000">
+                                                                            <video class="img-fluid" autoplay loop muted>
+                                                                                <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\King_killMoGraph.mp4"
+                                                                                        type="video/mp4" />
+                                                                            </video>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--BODY-->
+                                                            <div class="modal-body text-start">
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--ROW 3-->
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <video class="card-img-top" autoplay loop muted>
+                                                <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\King_matchScroll.mp4"
+                                                        type="video/mp4" />
+                                            </video>
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>"Gold Scroll" Volleyball Graphics - Purdue Athletics</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card9">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card9" tabindex="-1" aria-labelledby="card9" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card9">"Gold Scroll" Volleyball Graphics - Purdue Athletics</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <video class="card-img-top" autoplay loop muted>
+                                                                    <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\King_matchScroll.mp4"
+                                                                            type="video/mp4" />
+                                                                </video>
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <video class="card-img-top" autoplay loop muted>
+                                                <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\pk_TitleCard-zoomV2-PURPLE2.mp4"
+                                                        type="video/mp4" />
+                                            </video>
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>"Kyber" Title Card - Project: Cinematics</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card10">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card10" tabindex="-1" aria-labelledby="card10" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card10">"Kyber" Title Card - Project: Cinematics</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <video class="card-img-top" autoplay loop muted>
+                                                                    <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\pk_TitleCard-zoomV2-PURPLE2.mp4"
+                                                                            type="video/mp4" />
+                                                                </video>
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <video class="card-img-top" autoplay loop muted>
+                                                <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\eon_trlr_FRACTAL.mp4"
+                                                        type="video/mp4" />
+                                            </video>
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>Gameplay Trailer - Echoes of Nox</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card11">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card11" tabindex="-1" aria-labelledby="card11" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card11">Gameplay Trailer - Echoes of Nox</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <video class="card-img-top" autoplay loop muted>
+                                                                    <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\eon_trlr_FRACTAL.mp4"
+                                                                            type="video/mp4" />
+                                                                </video>
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <video class="card-img-top" autoplay loop muted>
+                                                <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\JordanKing_CGT123_flourSack.mp4"
+                                                        type="video/mp4" />
+                                            </video>
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>Squash & Stretch Exercise - Purdue CGT32100</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card12">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card12" tabindex="-1" aria-labelledby="card12" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card12">Squash & Stretch Exercise - Purdue CGT32100</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <video class="card-img-top" autoplay loop muted>
+                                                                    <source src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\vids\JordanKing_CGT123_flourSack.mp4"
+                                                                            type="video/mp4" />
+                                                                </video>
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--ROW 4-->
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\pcasPilot.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>Pinhead Cody and Steve - Pilot</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card13">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card13" tabindex="-1" aria-labelledby="card13" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card13">Pinhead Cody and Steve - Pilot</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\pcasPilot.png" class="card-img-top" alt="...">
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\tobySketchComic\slide1.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>Toby Sketch Comic #2</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card14">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card14" tabindex="-1" aria-labelledby="card14" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <!--HEADER-->
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card14">Toby Sketch Comic #2</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <!--CAROUSEL-->
+                                                            <div class="container-fluid p-1">
+                                                                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                                                                    <div class="carousel-inner">
+                                                                        <div class="carousel-item active" data-bs-interval="5000">
+                                                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\tobySketchComic\slide1.png" class="card-img-top" alt="...">
+                                                                        </div>
+                                                                        <div class="carousel-item" data-bs-interval="5000">
+                                                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\tobySketchComic\slide2.png" class="card-img-top" alt="...">
+                                                                        </div>
+                                                                        <div class="carousel-item" data-bs-interval="5000">
+                                                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\tobySketchComic\slide3.png" class="card-img-top" alt="...">
+                                                                        </div>
+                                                                        <div class="carousel-item" data-bs-interval="5000">
+                                                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\tobySketchComic\slide4.png" class="card-img-top" alt="...">
+                                                                        </div>
+                                                                        <div class="carousel-item" data-bs-interval="5000">
+                                                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\tobySketchComic\slide5.png" class="card-img-top" alt="...">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--BODY-->
+                                                            <div class="modal-body text-start">
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\blackSRT2.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>Goyxrd</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card15">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card15" tabindex="-1" aria-labelledby="card15" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card15">Goyxrd - Published Album Cover for Odii Gii</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\blackSRT2.png" class="card-img-top" alt="...">
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card shadow bg-body-tertiary">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\nts2.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i>not the same</i></h5>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card16">
+                                                    Details >>>
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="card16" tabindex="-1" aria-labelledby="card16" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="card16">not the same - Sample Album Cover for H.E.R.U.</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start">
+                                                                <img src="C:\Users\spagh\OneDrive\Desktop\Portfolio Site WIP\assets\pics\nts2.png" class="card-img-top" alt="...">
+                                                                <p>
+                                                                    In 2019, I was commissioned to create an album cover for my long-time friend, H.E.R.U (formerly known  as IcedOutMK), who was just starting his career as a performing artist. Finna Get Popped is still considered to be one of my best productions prior to college and is responsible for me continuing to be commissioned to create covers for other artists.                                                                    <br />
+                                                                    <br />
+                                                                    This composition consists of exclusively royalty-free images that were further edited through a wide range of free and open source applications, such as GIMP and Inkscape.
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--END-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer mt-auto py-3 bg-body-tertiary">
+        <div class="container">
+            <p class="float-end mb-1"> 
+                <a href="#">Back to top</a>
+            </p>
+            <p class="mb-1">
+                Kingdom
+            </p>
+        </div>
+    </footer>
+
+    <!--SCRIPTS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
