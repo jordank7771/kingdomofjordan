@@ -5,3 +5,14 @@
   opacity: 50%;
   background-color: #c0c0c0; /* Overlay */
 }
+
+#caroselGalleryPreview {
+  width: 50vw;
+  height: 50vh; 
+}
+
+.carosel-item {
+  width: 50vw;
+  height: 50vh; 
+}
+
