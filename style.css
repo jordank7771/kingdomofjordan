@@ -1,4 +1,6 @@
-.col {
+.card-img-top {
   width: 50%;
-  height auto;
+  height: auto;
+
+  background-color: #c0c0c080; /* Overlay */
 }
