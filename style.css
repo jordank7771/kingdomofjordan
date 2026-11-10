@@ -4,12 +4,7 @@
 }
 
 /* FORMATTING FOR PREVIEW GALLERY (index.html) */
-#caroselGalleryPreview {
-  width: 50vw;
-  height: 50vh; 
-}
-
-.carosel-item {
+.carosel-inner {
   width: 50vw;
   height: 480px; 
 }
