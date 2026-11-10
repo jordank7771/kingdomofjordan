@@ -1,8 +1,5 @@
 .card-img-top {
-  width: 50%;
-  height: auto;
-
-  opacity: 50%;
+  opacity: 0.5;
   background-color: #c0c0c0; /* Overlay */
 }
 
