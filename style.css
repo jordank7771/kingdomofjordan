@@ -6,6 +6,7 @@
   background-color: #c0c0c0; /* Overlay */
 }
 
+/* FORMATTING FOR PREVIEW GALLERY (index.html) */
 #caroselGalleryPreview {
   width: 50vw;
   height: 50vh; 
@@ -16,3 +17,7 @@
   height: 50vh; 
 }
 
+.gallery-tease-card {
+  width: 100vw;
+  height: 50vh; 
+}
