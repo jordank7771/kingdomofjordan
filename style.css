@@ -2,5 +2,6 @@
   width: 50%;
   height: auto;
 
-  background-color: #c0c0c080; /* Overlay */
+  opacity: 50%;
+  background-color: #c0c0c0; /* Overlay */
 }
